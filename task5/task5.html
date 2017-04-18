@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>模拟队列</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			font-size: 12px;
+		}
+		#container{
+			width: 1400px;
+			height: 200px;
+			background-color: #eee;
+			overflow: hidden;
+			border:1px solid #ccc;
+			padding-left: 10px;
+		}
+		#display{
+			width: 1200px;
+			height: 120px;
+			background-color: #ccc;
+			position: relative;
+			margin-left: 0px;
+			margin-top:5px;
+			overflow-x: auto;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+<div id="container">
+	<form>
+		<input type="text" id="text" placeholder="在这输入"/>
+		<input type="button" value="左侧入"/>
+		<input type="button" value="左侧出"/>
+		<input type="button" value="右侧入"/>
+		<input type="button" value="右侧出"/>
+	</form>
+
+    <button id="ascending">升序</button>
+    <button id="descending">降序</button>
+	<div id="display">
+<!-- 	<ul id="list">
+		<li>80</li>
+	</ul> -->
+	</div>
+</div>
+</body>
+<script src="js/task5.js"></script>
+</html>
